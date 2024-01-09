@@ -1,0 +1,12 @@
+decorators:
+decorators are html like tags that decorats the text or change its form or add to it a certain functionality.
+
+decorators syntax :
+without params => <decorator>piece of a text.</decorator>
+withParams => <decorator param1='' ... paramn=''>piece of a text.</decorator>
+
+available decorators:
+<BB> => for bold text.
+<II> => for italic text.
+<COLOR name='gray' rgb='rgb(10,10,10)'> => for changing text color (can either have name or rgb param but not both).
+<LI/> => for list element checkbox this element is self closed.
