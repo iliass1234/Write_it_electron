@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: var(--background-ambient-color-primary);
+}
+
+
+
+.top-header{
+    padding: 10px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+html{
+    --primary: rgb(107, 139, 111);
+    --secondary: rgb(20, 96, 20);
+    --text-primary: white;
+    --text-secondary: lightgray;
+    --accent: rgb(44, 186, 44);
+
+    --background-ambient-color-primary: rgb(13,13,13);
+    --background-ambient-color-sec: rgb(36, 36, 36);
+    --background-ambient-color-sec-l: rgb(41, 41, 41);
+    --background-ambient-color-sec-d: rgb(21, 21, 21);
+}

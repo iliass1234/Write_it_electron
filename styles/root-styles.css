@@ -1,0 +1,127 @@
+* {
+    font-family: sans-serif;
+    color: var(--text-primary);
+}
+
+button {
+    border: none;
+    padding: 8px 15px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.window-outer-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.horizontal-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.vertical-flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main, .section, .aside{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 5 1 10px;
+    background-color: var(--background-ambient-color-sec);
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    border: none;
+    background-color: var(--background-ambient-color-sec-l);
+}
+
+.aside{
+    flex: 1 1 150px;
+    background-color: var(--background-ambient-color-primary);
+    gap: 5px;
+    justify-content: start;
+}
+.aside-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: var(--background-ambient-color-sec);
+}
+
+input[type='text']{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--background-ambient-color-primary);
+
+    box-sizing: border-box;
+}
+
+.ele-selected{
+    background-color: var(--secondary);
+    border-left: 10px solid var(--accent);
+}
+
+
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+.f-space-b{
+    justify-content: space-between;
+}
+.textarea{
+    background-color: var(--background-ambient-color-primary);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+}
+.txt-format-btn{
+    background-color: var(--background-ambient-color-sec);
+    border: 1px solid var(--text-secondary);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section{
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+.search-wrapper > input{
+    width: 90%;
+}
+.search-wrapper{
+    display: flex;
+    max-width: 80%;
+    min-width: 30%;
+    width: 600px;
+    /* background: #fff; */
+}
+
+.danger-color{
+    background-color: rgb(154, 34, 34);
+}

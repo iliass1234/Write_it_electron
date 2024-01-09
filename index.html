@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>writeIt</title>
+    <link rel="stylesheet" href="./styles/dark-mode.css">
+    <link rel="stylesheet" href="./styles/root-styles.css">
+    <link rel="stylesheet" href="./styles/home.css">
+</head>
+<body>
+    <header class="top-header">
+        <span>WRITE_IT</span>
+        <button id="save-btn">save</button>
+    </header>
+    
+    <div class="window-outer-container">
+        <section class="section search-section">
+            <div class="search-wrapper">
+                <input type="text" name="search" id="search" placeholder="search">
+                <button>search</button>
+            </div>
+        </section>
+        <div class="horizontal-flex-container">
+            <main class="main">
+                <section class="section f-row f-space-b">
+                    <input type="text" placeholder="Title: ..">
+                    <span>day: Monday</span>
+                    <span>date: 02/10/2024</span>
+                </section>
+                <section class="section f-row">
+                    <button class="txt-format-btn">B</button>
+                    <button class="txt-format-btn"><i>i</i></button>
+                    <button class="txt-format-btn">L</button>
+
+                </section>
+                <section class="section">
+                    <textarea class="textarea" name="body" id="text-body" cols="30" rows="10" placeholder="Memo here.."></textarea>
+                </section>
+
+                <section class="section f-row">
+                    <button>save</button>
+                    <button class="danger-color">delete</button>
+                </section>
+            </main>
+
+
+
+            <aside class="aside">
+                <div class="aside-element ele-selected"><span>title</span> <span>10-01-2024</span></div>
+                <div class="aside-element">second</div>
+                <div class="aside-element">third</div>
+                <div class="aside-element">fifth</div>
+                <div class="aside-element">sixth</div>
+            </aside>
+
+        </div>
+        
+        <q style="margin: auto auto; color: gray;"> This app is made with love by <i>ilias jabri </i> </q>
+    </div>
+
+    <script src="./js/home"></script>
+</body>
+</html>
